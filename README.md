@@ -13,6 +13,14 @@ O **supervisor sintetizado** foi convertido automaticamente em código C e integ
 
 ---
 
+## 🛠️ Tecnologias
+
+- **Linguagens:** C 
+- **Microcontrolador:** STM32 (ARM Cortex-M)  
+- **Ambiente:** STM32CubeIDE  
+
+---
+
 ## 👤 Autor
 
 **Fabio Kinukawa**  
