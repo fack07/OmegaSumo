@@ -1,4 +1,4 @@
-# 🧠 Firmware – Robô de Sumô Autônomo Ω (Omega Sumo)
+# 🧠 Firmware – Robô de Sumô Autônomo (Omega Sumo)
 
 Este diretório contém o **firmware embarcado** desenvolvido para o robô de sumô autônomo de 3 kg.  
 O código foi implementado em **C** utilizando o **STM32CubeIDE**, com foco em controle de motores, leitura de sensores e execução das ações determinadas pelo supervisor.
