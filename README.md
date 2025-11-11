@@ -16,7 +16,7 @@ O projeto aborda a **atualização de hardware e software** do robô, com foco n
 ---
 ## ⚙️ Descrição Técnica
 
-O sistema embarcado é baseado em um **modelo supervisório** obtido pela **Síntese de Controle Supervisório (Supervisory Control Theory – SCT)**.  
+O sistema embarcado é baseado em um **modelo supervisório** obtido pela **Teoria de Controle Supervisório (Supervisory Control Theory – SCT)**.  
 A **planta** e as **especificações** foram modeladas de forma **modular** e **compostas sincronicamente**, resultando em um supervisor determinístico responsável por garantir **coordenação** e **exclusão mútua** entre eventos.
 
 O supervisor foi modelado no **Supremica**, com base na **Teoria de Controle Supervisório (Supervisory Control Theory – SCT)**.
