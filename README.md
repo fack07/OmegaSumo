@@ -12,23 +12,23 @@ O projeto aborda a **atualização de hardware e software** do robô, com foco n
 |-------|------------|
 | [`Firmware/`](./Firmware) | Contém o código embarcado para o microcontrolador STM32F407VET6, implementando controle de sensores, motores e o supervisor em tempo real. |
 | [`Supervisor/`](./Supervisor) | Contém o modelo supervisório desenvolvido no Supremica (`omega_sumo.wmod`), compactado em `.zip`, reunindo as plantas, especificações e supervisor. |
+| [`PCB/`](./PCB) | Projeto eletrônico do robô, incluindo esquemáticos e layout da placa. |
+
 
 ---
-## ⚙️ Descrição Técnica
-
-O sistema embarcado é baseado em um **modelo supervisório** obtido pela **Teoria de Controle Supervisório (Supervisory Control Theory – SCT)**.  
-A **planta** e as **especificações** foram modeladas de forma **modular** e **compostas sincronicamente**, resultando em um supervisor determinístico responsável por garantir **coordenação** e **exclusão mútua** entre eventos.
-
-O supervisor foi modelado no **Supremica**, com base na **Teoria de Controle Supervisório (Supervisory Control Theory – SCT)**.
-
-O **supervisor sintetizado** foi convertido automaticamente em código C e integrado ao microcontrolador **STM32**, responsável pelo controle autônomo do robô.
+## 🧰 Ferramentas Utilizadas
+- [Supremica](https://www.supremica.org) – Modelagem e síntese supervisória (uso acadêmico)  
+- [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) – Desenvolvimento e compilação do firmware  
+- [Autodesk EAGLE](https://www.autodesk.com/products/eagle/overview) – Desenvolvimento do projeto eletrônico e layout de PCB  
+- [GitHub](https://github.com/) – Controle de versão e compartilhamento do projeto  
 
 ---
 
 ## 📜 Licença e Uso
 Este projeto foi desenvolvido para fins **acadêmicos e de pesquisa**.  
 Os arquivos gerados pelo Supremica são distribuídos conforme sua licença de uso educativo.  
-O código-fonte embarcado pode ser reutilizado livremente para fins não comerciais, com citação do autor.
+O código-fonte embarcado e o projeto eletrônico podem ser reutilizados livremente para fins não comerciais, com a devida citação do autor.
+
 
 ---
 
